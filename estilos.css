@@ -1,0 +1,13 @@
+form{
+    background: blue;
+    margin-right: 70%;
+    margin-left: 10px;
+    padding: 50px;
+}
+aside{
+    background: violet;
+}
+div#tabla{
+    background: red;
+    padding: 30px;
+}
