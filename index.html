@@ -7,6 +7,56 @@
     <title>Document</title>
 </head>
 <body>
-<h1>hola</h1>
+    <form action="">
+        <header>
+            <h1>Hotel la Lujuria</h1>
+            <p>N° <input type="text" name="boton" id="b1"> Ubicacion: <input type="text" name="boton" id="b2"></p>
+            <p>Cliente <input type="text" name="boton" id="b3"> DNI: <input type="text" name="boton" id="b4"></p>
+        </header>
+        <main>
+            <p>Tipo <select name="tipo" id="b5">
+                <option value="">Familiar</option>
+                <option value="">Triple</option>
+                <option value="">Doble</option>
+                <option value="">Individual</option>
+                <option value="">Suit</option>
+                <option value="">Presidencial</option>
+                <option value="">Mendigo</option>
+            </select> N° Personas <input type="text" name="boton" id="b6"></p>
+            <input type="button" value="Reset">
+            <input type="button" value="Guardar">
+        </main>
+    </form>
+
+    <aside name=tabla id="tabla1">
+        <table>
+            <h2>Datos Cliente</h2>
+            <thead>
+                <td>
+                    <th>N°</th>
+                    <th>Nombre</th>
+                    <th>DNI</th>
+                    <th>Fecha</th>
+                    <th>Ubicacion</th>
+                </td>
+            </thead>
+        </table>
+    </aside>
+    <div id = tabla2>
+        <table>
+            <thead>
+                <td>
+                    <th>N°</th>
+                    <th>Habitacion</th>
+                    <th>Costo</th>
+                    <th>Cantidad</th>
+                    <th>Action</th>
+                </td>
+            </thead>
+        </table>
+        <div>
+            <p>Total <input type="text" name="boton" id="b7"></p>
+        </div>
+    </div>
 </body>
 </html>
